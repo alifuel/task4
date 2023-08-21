@@ -1,0 +1,46 @@
+div{
+    background-color: rgb(218, 208, 208);
+    margin: 20px;
+    position: relative;
+    left: 40%;
+    display: inline-block;
+}
+table{
+     position: relative;
+     left:34%;
+     border: solid 1px;
+     border-spacing: 3px;
+     background-color: yellow;
+     opacity: 0.3;
+     cursor:default;
+     transform: all;
+}
+table:hover{
+    
+    width: 380px;
+    height:80px;
+}
+table thead td{
+    text-align: center;
+    border: solid 1px;
+}
+table tr td{
+    border: solid 1px;
+}
+button{
+    margin: 30px 0;
+    background-color: green;
+    color: white;
+    border: solid blue 1px;
+    position: relative;
+    left: 33%;
+    cursor:pointer;
+}
+.one{
+    position: relative;
+    left: 55%;
+}
+button:hover{
+    background-color: rgb(151, 190, 224);
+    color: black;
+}
